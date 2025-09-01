@@ -4,7 +4,6 @@ import borrowRoutes from "../borrow/borrow.route";
 
 const router = Router();
 
-// mount routers
 router.use("/books", bookRoutes);
 router.use("/borrow", borrowRoutes);
 
